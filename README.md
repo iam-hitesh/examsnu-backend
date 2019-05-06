@@ -1,0 +1,2 @@
+# examsnu-backend
+Django 

@@ -81,13 +81,24 @@ WSGI_APPLICATION = 'examsnu.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'examsnu',
+#         'USER' : 'root',
+#         'PASSWORD' : '',
+#         'HOST' : '127.0.0.1',
+#         'PORT' : '3306',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'examsnu',
-        'USER' : 'root',
-        'PASSWORD' : '',
-        'HOST' : '127.0.0.1',
+        'NAME': 'examsnu_db',
+        'USER' : 'examsnu_db',
+        'PASSWORD' : 'Examsnu##9024',
+        'HOST' : 'examsnu-db.ckybkfjaxjeq.us-east-1.rds.amazonaws.com',
         'PORT' : '3306',
     }
 }
